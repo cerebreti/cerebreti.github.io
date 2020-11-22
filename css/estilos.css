@@ -8,7 +8,7 @@ body{
 .container{
 	height: 360px;
 	width: 600px;
-	margin: 7rem 22rem 5rem 22rem;
+	margin: 5rem 22rem 5rem 22rem;
 	background: rgba(255, 255, 255, 0.5);
 	padding: 20px;
 	border-radius: 10px;
@@ -71,3 +71,6 @@ body{
   cursor: pointer;
 }
 
+mi-footer {
+ font-size: 20px;
+}
