@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Cerebreti</title>
+		<link rel="icon" href="cere.ico"/>
+		<link href="css/estilos.css" rel="stylesheet"/>
+		<script type="module" src="cmp/footer.js"></script>
+		
+	</head>
+	<body >
+		<div id="preContainer" class="container">
+			
+			<div id="preguntas" class="question"></div>
+			<label class="opcion"><input type="radio" name="opcion" value="1" /> <span id="opt1"></span></label><br/>
+			<label class="opcion"><input type="radio" name="opcion" value="2" /> <span id="opt2"></span></label><br/>
+			<label class="opcion"><input type="radio" name="opcion" value="3" /> <span id="opt3"></span></label><br/>
+			<label class="opcion"><input type="radio" name="opcion" value="4" /> <span id="opt4"></span></label><br/>
+			<button id="continuar" class="next-btn" onclick="siguiente();">Siguiente</button>
+		</div>
+		<div id="result" class="container result" style="display:none;">
+			
+		</div>
+		<footer>Copyright &copy; 2020 Brayan José Cruz Robles</footer>
+		
+		<script src="js/preguntasdos.js"></script>
+		<script src="js/calificar.js"></script>
+	</body>
+</html>
